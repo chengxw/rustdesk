@@ -508,7 +508,7 @@ class _ConnectionPageState extends State<ConnectionPage>
                   const SizedBox(
                     width: 17,
                   ),
-                  Button(onTap: null, text: "Connect"),
+                  Button(onTap: () {}, text: "Connect"),
                 ],
               ),
             )
