@@ -339,7 +339,7 @@ class _ConnectionPageState extends State<ConnectionPage> {
                 child: IconButton(
                   icon: const Icon(Icons.arrow_forward,
                       color: MyTheme.darkGray, size: 45),
-                  onPressed: onConnect,
+                  onPressed: () {},
                 ),
               ),
             ],
